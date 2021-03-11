@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  background-color: lightgray;
+  padding: 30px;
+  position: absolute;
+  margin-left: 30%;
+  margin-right: 20%;
+  min-width: 600px;
+}
+h1 {
+  text-align: center;
+}
+.btn {
+  background-color: skyblue;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+}
+.btn2 {
+  background-color: lightgray;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: black;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  margin-top: 100%;
+  transform: translate(-50%, -50%);
+  min-width: 400px;
+  min-height: 350px;
+  background-color: lightgray;
+}
+
+.box {
+  width: 300px;
+  border: 1px solid black;
+}
+table {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+th,
+td {
+  height: 50px;
+  /* width: 100px; */
+  /* border-collapse: collapse; */
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+/* .td1 {
+  width: 400px;
+} */
+.btn3 {
+  position: relative;
+  margin-left: 65%;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.userInfo {
+  text-align: left;
+  padding: 5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
